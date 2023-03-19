@@ -12,37 +12,39 @@
 </head>
 
 <body>
-	<div id = "s-bar">
-		<div class = "s-bar-item">
-			<div class = "form-group">
-				<label for="alg-select">Algorithm</label>
-				<select id = "alg-select" name = "alg-select">
-					<option value="a-star">A-Star</option>
-					<!-- <option value="uniform-cost">Uniform-Cost</option> -->
-					<!-- <option value="greedy">Greedy</option> -->
-				</select>				
+	<div class="circle"></div>
+	<div id = "s-bar-container">
+		<div id = "s-bar">
+			<div class = "s-bar-item">
+				<div class = "form-group">
+					<label for="alg-select">Algorithm</label>
+					<select id = "alg-select" name = "alg-select">
+						<option value="a-star">A-Star</option>
+						<!-- <option value="uniform-cost">Uniform-Cost</option> -->
+						<!-- <option value="greedy">Greedy</option> -->
+					</select>				
+				</div>
 			</div>
-		</div>
-		
-		<div class = "s-bar-item">
-			<div class = "form-group">
-				<label for="node-select">Node Type</label>
-				<select id = "node-select" name = "node-select">
-					<option value="start">Start</option>
-					<option value="stop">Stop</option>
-					<option value="wall">Wall</option>
-				</select>
+			<div class = "s-bar-item">
+				<div class = "form-group">
+					<label for="node-select">Node Type</label>
+					<select id = "node-select" name = "node-select">
+						<option value="start">Start</option>
+						<option value="stop">Stop</option>
+						<option value="wall">Wall</option>
+					</select>
+				</div>
 			</div>
-		</div>
-		<div class = "s-bar-item">
-			<div class = "form-group">	
-				<button id = "start-button">Start</button>
-				<button id = "reset-button">Reset</button>
+			<div class = "s-bar-item">
+				<div class = "form-group">	
+					<button id = "start-button">Start</button>
+					<button id = "reset-button">Reset</button>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id = "graphContainer">
+	<div id = "graph-container">
 		<div id = "graph">
 			<div id = "nc"></div>
 		</div>		
