@@ -3,7 +3,7 @@
 let gInfo = {
     rows: 20,
     cols: 40,
-    cellSize: 35,
+    cellSize: 29,
     startLoc: 0,
     endLoc: 0,
     graph: 0
@@ -32,8 +32,8 @@ function setUpGraphView(gInfo){
     nc.innerHTML = "";
 
     //calculate the number of column and row cells from window size
-    rows = Math.floor(window.innerHeight/cellSize*0.8);
-    cols = Math.floor(window.innerWidth/cellSize*0.8);
+    rows = Math.floor(window.innerHeight/cellSize*0.7);
+    cols = Math.floor(window.innerWidth/cellSize*0.7);
 
     //adjust grid layout based on number of cols and rows
     nc.style.gridTemplateColumns = "repeat(" + cols + "," + cellSize + "px)";
